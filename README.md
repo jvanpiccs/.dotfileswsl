@@ -53,7 +53,11 @@ nvm install v16
 
 ## pwsh commands to toggle wsl network adapter to switch on vpn
 disconnect vpn checkpoint
+
 `PS> netsh interface set interface 'vEthernet (WSL)' disable`
+
 connect vpn checkpoint
+
 `PS> netsh interface set interface 'vEthernet (WSL)' enable`
+
 you have to do this every fucking time, sad windows
