@@ -105,6 +105,9 @@ source "$OSH"/oh-my-bash.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR='nvim'
+CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage
+alias nvim='exec /usr/local/bin/nvim.appimage'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
