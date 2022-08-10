@@ -27,4 +27,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 # dotfiles
 git clone https://github.com/jvanpiccs/.dotfileswsl.git
 
-
+# pwsh commands to toggle wsl network adapter to switch on vpn
+# disconnect vpn checkpoint
+# PS> netsh interface set interface 'vEthernet (WSL)' disable
+# connect vpn checkpoint
+# PS> netsh interface set interface 'vEthernet (WSL)' enable
+# you have to do this every fucking time
