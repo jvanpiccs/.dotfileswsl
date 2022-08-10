@@ -16,7 +16,6 @@ pacman -S git github-cli neovim tmux neofetch ranger
 ```
 
 ### config git
-git config
 ```
 git config --global user.name 'jvanpiccs'
 git config --global user.email 'piccojuan@gmail.com'
@@ -44,4 +43,14 @@ nvm install v16
 ln -s ~/.dotfileswsl/.bashrc ~/.bashrc
 ln -s ~/.dotfileswsl/.profile ~/.profile
 ln -s ~/.dotfileswsl/nvim ~/.config/nvim
+```
+
+### spfx
+```
+npm install gulp-cli yo @microsoft/generator-sharepoint --global
+```
+
+### folders
+```
+mkdir ~/code
 ```
