@@ -1,4 +1,3 @@
-local g = vim.g
 local o = vim.o
 
 -- Term gui colors

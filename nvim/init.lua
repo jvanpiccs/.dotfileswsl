@@ -1,6 +1,3 @@
 -- Basic config
-require('settings')
---require('packer')
-require('keymaps')
-
--- Plugins
+require('options') -- options
+require('packer-plugins')
