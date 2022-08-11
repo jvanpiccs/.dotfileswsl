@@ -1,7 +1,7 @@
 local o = vim.o
 
 -- Term gui colors
-o.termguicolors = false
+-- o.termguicolors = true
 
 -- Numbers
 o.number = true
