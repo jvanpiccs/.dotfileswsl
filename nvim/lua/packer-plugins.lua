@@ -4,5 +4,6 @@ return require('packer').startup(function()
   --use('sbdchd/neoformat')
 
   --color scheme
+  use 'gruvbox-community/gruvbox'
 
 end)

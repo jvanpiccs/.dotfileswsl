@@ -1,3 +1,3 @@
 -- Basic config
-require('packer-plugins')
 require('options') -- options
+require('packer-plugins')
