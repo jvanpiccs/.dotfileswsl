@@ -104,3 +104,6 @@ alias vim='exec nvim'
 #
 # Go install
 export PATH=$PATH:/usr/local/go/bin
+
+# Alias
+alias ll="ls -lah"
